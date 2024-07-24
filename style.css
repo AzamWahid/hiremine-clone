@@ -230,3 +230,69 @@
     color: rgb(49, 49, 49);
     font-size: 20px;
 }
+
+.maisecbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second-sec_boxes {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+    width: 80%;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 270px;
+    background: var(--white);
+    border: 1px solid #fff;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    background: #fff;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 10px 56px #431ccc14;
+    padding: 30px 26px;
+    background: linear-gradient(180deg, #edebff, hsla(0, 0%, 100%, 0));
+    box-shadow: 0 4px 40px #bdb2ff3d;
+    padding: 2.5rem;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all .6s ease;
+}
+
+.box:hover {
+    box-shadow: #0000003d 0 3px 8px;
+}
+.second-sec_boxes .box {
+    width: 25%;
+  
+}
+
+.box i {
+    color: rgb(104, 81, 255);
+    width: 10px;
+}
+.box h1 {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(104, 81, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+.box p {
+    color: rgb(63, 63, 63);
+}
